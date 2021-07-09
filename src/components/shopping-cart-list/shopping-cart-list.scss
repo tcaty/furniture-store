@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.total-price {
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0px 30px 10px 30px;
+  border-bottom: 1px solid rgb(182, 178, 178);
+
+  &__price {
+    display: inline-block;
+    width: 160px;
+    margin-left: 20px;
+    text-align: right;
+  }
+}

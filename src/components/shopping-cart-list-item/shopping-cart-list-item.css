@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.shopping-cart-list-item {
+  padding: 10px 30px 15px 30px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
+}
+
+.top-line {
+  text-align: right;
+}
+
+.top-line button {
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.top-line button:hover {
+  color: #c91313;
+}
+
+.bottom-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-size: 22px;
+}
+
+.bottom-line__img {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bottom-line__img img {
+  width: 45%;
+}
+
+.bottom-line__item-info {
+  flex-grow: 1;
+}
+
+.bottom-line__count-btns {
+  flex-grow: 1;
+}
+
+.bottom-line__total-price {
+  width: 150px;
+  text-align: right;
+}
+
+.item-info__name {
+  margin-bottom: 10px;
+}
+
+.item-info__category {
+  opacity: 0.5;
+}
+
+.count-btns__item-count {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 42px;
+  text-align: center;
+}
+
+.count-btns button {
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.count-btns button:hover {
+  color: #ff605a;
+}

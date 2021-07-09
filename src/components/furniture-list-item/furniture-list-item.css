@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.furniture-list-item {
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.furniture-list-item__image-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+  height: 250px;
+}
+
+.furniture-list-item__category {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #ff605a;
+  margin-bottom: 5px;
+}
+
+.furniture-list-item__name {
+  padding: 5px 0px;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #1d1d1b;
+  margin-bottom: 15px;
+  border-bottom: 2px solid transparent;
+  transition: 400ms;
+  text-transform: capitalize;
+}
+
+.furniture-list-item__name_mouseOn {
+  transition: 400ms;
+  border-bottom: 2px solid #000;
+}
+
+.add-to-cart-btn {
+  margin: 0px auto;
+  padding: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  transition: 400ms;
+  display: inline;
+}
+
+.add-to-cart-btn button {
+  width: 120px;
+  background-color: transparent;
+  color: black;
+}
+
+.add-to-cart-btn__icon {
+  margin-right: 15px;
+}
+
+.add-to-cart-btn__price {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.add-to-cart-btn_mouseOn {
+  transition: 400ms;
+  background-color: #ff605a;
+  box-shadow: 0px 8px 16px 0px rgba(255, 96, 90, 0.4);
+}
+
+.add-to-cart-btn_mouseOn button {
+  color: #fefefe;
+}

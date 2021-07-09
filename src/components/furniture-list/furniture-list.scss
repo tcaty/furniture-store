@@ -1,0 +1,11 @@
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.furniture-list {
+  display: grid;
+  column-gap: 140px;
+  row-gap: 140px ;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+}

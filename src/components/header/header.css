@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.header {
+  border-bottom: 1px solid #b6b2b2;
+  margin-bottom: 50px;
+}
+
+.header__container {
+  max-width: 93%;
+  margin: 0px auto;
+}
+
+.header__row {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__store {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.header__store:hover {
+  color: #ff605a;
+}
+
+.cart {
+  font-size: 19px;
+  font-family: Montserrat;
+  color: #000000;
+}
+
+.cart__icon {
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+.cart__text {
+  color: #000000;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.cart__text:hover {
+  color: #ff605a;
+}
+
+.cart__items-count {
+  color: black;
+}

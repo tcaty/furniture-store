@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.shopping-cart-is-empty-message {
+  padding: 13px;
+  width: 400px;
+  margin: 0px auto;
+  font-family: Montserrat;
+  text-align: center;
+  // border: 1px solid rgb(182, 178, 178);
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.07);
+  border-radius: 10px;
+  margin-top: 180px;
+
+  &__text {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 13px;
+  }
+
+  &__prompt {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #737373;
+    margin-bottom: 20px;
+  }
+
+  &__go-to-store-btn {
+
+    button {
+      padding: 5px 8px;
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #ffffff;
+      background-color: #ff605a;
+      border-radius: 15px;
+      box-shadow: 0px 3px 20px 0px rgba(255,96,90,0.4);
+
+      &:hover {
+        background-color: #e6524c;
+      }
+    }
+  }
+
+}

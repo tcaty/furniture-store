@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.page-title {
+  max-width: 500px;
+  margin: 0px auto;
+  margin-bottom: 80px;
+  text-align: center;
+  line-height: 22px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.page-title__section {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff605a;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.page-title__page-name {
+  font-size: 48px;
+  color: #1d1d1b;
+  margin-bottom: 30px;
+}
+
+.page-title__description {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #737373;
+}
