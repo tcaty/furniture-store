@@ -1,0 +1,3 @@
+# Furniture store
+
+## Store page
